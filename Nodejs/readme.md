@@ -18,7 +18,9 @@ all users accessing our app are using the same single thread (at a same place wh
 when one user locks the thread with synch code that might cause problem for other users in terms of assecibility .
 even for one sec if the thread is blocked other users would have to wait for thread to be cleared inorder to perform even simpler tasks . Thisso we must avoid these kinds of situation by using asynch code . 
 
+this is how non-blocking I/O model of Nodejs is implemented. 
+I/O-> input/output(accesing files and handleing the network )
 
+In php we can give new thread to each user(completely diffrent paradigms)
 
-
-
+# READING AND WRITING FILES
