@@ -24,3 +24,10 @@ I/O-> input/output(accesing files and handleing the network )
 In php we can give new thread to each user(completely diffrent paradigms)
 
 # READING AND WRITING FILES
+synchronous way-> fs.readfileSync()  , fs.writefileSync().
+Asynchronous way-> fs.readfile() , fs.writefile()
+
+# order of reading documents
+1. Reading and writing files 
+2. creating web server 
+3. routing
