@@ -32,3 +32,4 @@ Asynchronous way-> fs.readfile() , fs.writefile()
 2. creating web server 
 3. routing
 4. building an api
+5. building html template.
